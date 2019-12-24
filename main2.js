@@ -18,14 +18,14 @@ function takeComGuess() {
 function game(userGuess) {
     let computerGuess = takeComGuess();
 
-    if (userGuess === computerGuess) {
+    if (userGuess === "rock") {
 
-        document.getElementById("imageID").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqdK-KNxBWMnA1JZjJ3mypOj_YKWy3xI00Rbv1yEL_mebZ_MYT&s";
-        resultDiv.innerHTML = `Oops. We made the same choice. Lets start again.`;
-    }
-
-    else if (userGuess === "rock") {
-            if (computerGuess === "scissors") {
+             if (computerGuess === "rock") {
+                document.getElementById("computerHandID").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpD3K8bBeVJUWTmhtJjTm2OgaYYNr60RhDH8dahnCc4X1FqSAo&s";
+                resultDiv.innerHTML = `Oops. We made the same choice. Lets start again.`;
+             }
+    
+            else if (computerGuess === "scissors") {
 
                 document.getElementById("computerHandID").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbVAf4scWY9palle-oco-zqOxkLf423dIW50drxV4Is2siFYWT&s"
                 document.getElementById("imageID").src = "https://www.zastavki.com/pictures/1600x1200/2009/3D-graphics_Cool_smile_014046_.jpg";
@@ -39,8 +39,14 @@ function game(userGuess) {
             }    
     }
 
-    else if (userGuess === "paper") {
-        if (computerGuess === "rock") {
+    if (userGuess === "paper") {
+
+        if (computerGuess === "paper") {
+            document.getElementById("computerHandID").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN7sLH3gseM2bk2jdwDhHDruM8NEw8TlYozc1tV4rOzTJ8m4oY&s";
+            resultDiv.innerHTML = `Oops. We made the same choice. Lets start again.`;
+        }
+
+        else if (computerGuess === "rock") {
 
             document.getElementById("imageID").src = "https://www.zastavki.com/pictures/1600x1200/2009/3D-graphics_Cool_smile_014046_.jpg";
             document.getElementById("computerHandID").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpD3K8bBeVJUWTmhtJjTm2OgaYYNr60RhDH8dahnCc4X1FqSAo&s";
@@ -54,8 +60,14 @@ function game(userGuess) {
         } 
     }
 
-    else if (userGuess === "scissors") {
-        if (computerGuess === "paper") {
+    if (userGuess === "scissors") {
+
+        if (computerGuess === "scissors") {
+            document.getElementById("computerHandID").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbVAf4scWY9palle-oco-zqOxkLf423dIW50drxV4Is2siFYWT&s";
+            resultDiv.innerHTML = `Oops. We made the same choice. Lets start again.`;
+        }
+
+        else if (computerGuess === "paper") {
 
             document.getElementById("imageID").src = "https://www.zastavki.com/pictures/1600x1200/2009/3D-graphics_Cool_smile_014046_.jpg";
             document.getElementById("computerHandID").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN7sLH3gseM2bk2jdwDhHDruM8NEw8TlYozc1tV4rOzTJ8m4oY&s";
@@ -90,4 +102,6 @@ function main() {
     })
 }
 main();
+
+
 
