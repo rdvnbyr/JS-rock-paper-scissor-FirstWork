@@ -51,12 +51,22 @@ header + p {
     font-family: 'Francois One', sans-serif;
     font-size: xx-large;
 }
-
+.compare {
+    display: flex;
+    justify-content: space-around;
+}
+#userHandID {
+    width: 200px;
+    height: 150px;
+}
+#computerHandID {
+    width: 200px;
+    height: 150px;
+}
 .image > img {
-    display: block;
     width: 250px;
     height: 200px;
-    margin: 10px auto;
+    margin: 10px;
     
 }
 
