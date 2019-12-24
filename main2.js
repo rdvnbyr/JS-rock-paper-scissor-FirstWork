@@ -22,6 +22,7 @@ function game(userGuess) {
 
              if (computerGuess === "rock") {
                 document.getElementById("computerHandID").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpD3K8bBeVJUWTmhtJjTm2OgaYYNr60RhDH8dahnCc4X1FqSAo&s";
+                document.getElementById("imageID").src = "http://technewsdestination.com/wp-content/uploads/2019/08/190808-human-vs-ai-lg.jpg";
                 resultDiv.innerHTML = `Oops. We made the same choice. Lets start again.`;
              }
     
@@ -43,6 +44,7 @@ function game(userGuess) {
 
         if (computerGuess === "paper") {
             document.getElementById("computerHandID").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN7sLH3gseM2bk2jdwDhHDruM8NEw8TlYozc1tV4rOzTJ8m4oY&s";
+            document.getElementById("imageID").src = "http://technewsdestination.com/wp-content/uploads/2019/08/190808-human-vs-ai-lg.jpg";
             resultDiv.innerHTML = `Oops. We made the same choice. Lets start again.`;
         }
 
@@ -64,6 +66,7 @@ function game(userGuess) {
 
         if (computerGuess === "scissors") {
             document.getElementById("computerHandID").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbVAf4scWY9palle-oco-zqOxkLf423dIW50drxV4Is2siFYWT&s";
+            document.getElementById("imageID").src = "http://technewsdestination.com/wp-content/uploads/2019/08/190808-human-vs-ai-lg.jpg";
             resultDiv.innerHTML = `Oops. We made the same choice. Lets start again.`;
         }
 
