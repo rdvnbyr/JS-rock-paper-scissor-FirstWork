@@ -17,7 +17,7 @@ function game(userGuess) {
 
     if (userGuess === computerGuess) {
         document.getElementById("imageID").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqdK-KNxBWMnA1JZjJ3mypOj_YKWy3xI00Rbv1yEL_mebZ_MYT&s";
-        resultDiv.innerHTML = userGuess + " same " + computerGuess + ". Draw";
+        resultDiv.innerHTML = `Oops. We made the same choice. Lets start again.`;
     }
 
     else if (userGuess === "rock") {
