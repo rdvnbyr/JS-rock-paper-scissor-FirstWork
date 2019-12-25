@@ -36,7 +36,7 @@ function game(userGuess) {
 
                 document.getElementById("computerHandID").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN7sLH3gseM2bk2jdwDhHDruM8NEw8TlYozc1tV4rOzTJ8m4oY&s"
                 document.getElementById("imageID").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn60BEPP2mO6Is2PW92UoOP1S6_m6u19J_mcHAvQspMLiTsOXo&s"
-                resultDiv.innerHTML = resultDiv.innerHTML = `${userGuess}  defeats by  ${computerGuess} . You lost`;
+                resultDiv.innerHTML = `${userGuess}  defeats by  ${computerGuess} . You lost`;
             }    
     }
 
@@ -52,13 +52,13 @@ function game(userGuess) {
 
             document.getElementById("imageID").src = "https://www.zastavki.com/pictures/1600x1200/2009/3D-graphics_Cool_smile_014046_.jpg";
             document.getElementById("computerHandID").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpD3K8bBeVJUWTmhtJjTm2OgaYYNr60RhDH8dahnCc4X1FqSAo&s";
-            resultDiv.innerHTML = resultDiv.innerHTML = `${userGuess}  beats   ${computerGuess} . You win`;
+            resultDiv.innerHTML = `${userGuess}  beats   ${computerGuess} . You win`;
 
         }else {
 
             document.getElementById("imageID").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn60BEPP2mO6Is2PW92UoOP1S6_m6u19J_mcHAvQspMLiTsOXo&s";
             document.getElementById("computerHandID").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbVAf4scWY9palle-oco-zqOxkLf423dIW50drxV4Is2siFYWT&s";
-            resultDiv.innerHTML = resultDiv.innerHTML = `${userGuess}  defeats by  ${computerGuess} . You lost`;
+            resultDiv.innerHTML = `${userGuess}  defeats by  ${computerGuess} . You lost`;
         } 
     }
 
@@ -80,7 +80,7 @@ function game(userGuess) {
 
             document.getElementById("imageID").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn60BEPP2mO6Is2PW92UoOP1S6_m6u19J_mcHAvQspMLiTsOXo&s";
             document.getElementById("computerHandID").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpD3K8bBeVJUWTmhtJjTm2OgaYYNr60RhDH8dahnCc4X1FqSAo&s"
-            resultDiv.innerHTML = resultDiv.innerHTML = `${userGuess}  defeats by  ${computerGuess} . You lost`;
+            resultDiv.innerHTML = `${userGuess}  defeats by  ${computerGuess} . You lost`;
         }
     }
 }
