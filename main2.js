@@ -2,9 +2,9 @@ let resultDiv = document.querySelector(".result");
 let rockDiv = document.getElementById("rockID");
 let paperDiv = document.getElementById("paperID");
 let scissorsDiv = document.getElementById("scissorsID");
-let imageDiv = document.getElementById("imageID");
-let UserHand = document.getElementById("userHandID");
-let computerHand = document.getElementById("computerHandID");
+// let imageDiv = document.getElementById("imageID");
+// let UserHand = document.getElementById("userHandID");
+// let computerHand = document.getElementById("computerHandID");
 
 
 
