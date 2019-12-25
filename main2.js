@@ -85,9 +85,6 @@ function game(userGuess) {
     }
 }
 
-game("rock, paper, scissors");
-
-
 function main() {  
     rockDiv.addEventListener('click', function () {
         game("rock");
